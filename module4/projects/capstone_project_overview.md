@@ -1,8 +1,10 @@
-Capstone Project
-==============
+---
+layout: page
+title: Capstone Project
+---
 
-Learning Goals
-------------
+## Learning Goals
+
 *   Students use an agile process to turn acceptance requirements into deployed software *(mastery)*
 *   Students estimate complexity of user stories *(functional)*
 *   Students translate acceptance requirements into user stories that are ready to be worked on *(mastery)*
@@ -14,25 +16,18 @@ Learning Goals
 *   Students apply accessibility best practices when building their applications *(functional)*
 *   Students explore and implement new concepts learned in class this module or on their own *(mastery)*
 
-Overview
-------------
+## Overview
 
 The Capstone Project will last two weeks and will consist of student's building meaningful, publishable work of their choosing. An instructor will be assigned to each student and act as the Technical Lead.
 
-The project consists of two "sprints": the first finishes on Friday of Week 4, the other on Monday of Week 6.
-
-Technical Expectations
----------------------
+## Technical Expectations
 
 We would like to give you a fair amount of freedom on this project. We want you to bulid something that you're excited about, and that you're proud of. These are a few requirements you should consider when pitching and building your project:
 
-*   You build something usable. You should be comfortable publishing your project by the time it's due in week 6. A spike or exploration into a new concept without a clear deliverable won't be accepted.
-*   You must apply at least four new techniques, or build your project in a new language and/or framework. New is something from the 4th module (OOJS, Security, Environments, React), or something extra-curricular (something not taught in the Turing backend engineering program).
-  *   Since accessibility is already in the rubric, it doesn't count as a new topic, but is required.
-  *   If you use something cool for your documentation (swagger, JSON-API, etc), we will accept it.
+* You build something usable. You should be comfortable publishing your project by the time it's due in week 6. A spike or exploration into a new concept without a clear deliverable won't be accepted.
+* You must use new technologies or techniques. In order to ensure a consistent minimum bar for this requirement, instructors have created a point system outlined in greater detail below.
 
-Structure of each week
-------------
+## Structure of each week
 
 Each student will submit a project proposal after the "soft launch" [here](https://github.com/turingschool/ruby-submissions/tree/master/1706-b/4module/capstone_projects/proposals) by Monday of week 4. Technical Lead's will give feedback on the scope of the project either via Github, Slack message, or in person by the end of the day.
 
@@ -52,8 +47,7 @@ At the end of the project (week 6):
 * Students will demo their project to the entire class.
 * Students will be evaluated (in-person with their Technical Lead) on the rubric below.
 
-Rubric
-------------
+## Rubric
 
 ### 1. Project Planning & Management
 
