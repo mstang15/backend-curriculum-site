@@ -5,6 +5,7 @@ subheading: Day 1
 ---
 
 * Review the Following Lessons
+    * [Read this introduction to the terminal](./lessons/terminal)
     * [Read about integers and floats](./lessons/integers_and_floats)
     * [Read about variables](./lessons/variables)
     * [Read about loops](./lessons/loops)
@@ -14,7 +15,3 @@ subheading: Day 1
 * Read About and Begin Using Git
     * [Read About Git/GitHub](./lessons/git_and_github)
     * [Use Git to Track Your Progress](./activities/tracking_progress_with_git)
-
-
-
-

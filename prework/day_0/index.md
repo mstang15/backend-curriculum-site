@@ -7,18 +7,13 @@ Before we can do much programming, we need to make sure our machines are properl
 
 Here are the basics we're going to go over:
 
-*   A text editor. Developers need to work with text in a different way than
-your average MS Word user. We'll want a text editor designed for software
+*   A text editor. Developers need to work with text in a different way than your average MS Word user. We'll want a text editor designed for software
 development.
-*   A system "Terminal" for interacting with our machine from the command
-line. Fortunately OS X already ships with one.
-*   OS X "Command Line Tools" -- these are some system dependencies needed for
-some of the tools we will use.
-*   HomeBrew -- This is a "package manager" for installing other developer-related
-programs. You can think of it as the "App Store for nerds."
+*   A system "Terminal" for interacting with our machine from the command line. Fortunately OS X already ships with one.
+*   OS X "Command Line Tools" -- these are some system dependencies needed for some of the tools we will use.
+*   HomeBrew -- This is a "package manager" for installing other developer-related programs. You can think of it as the "App Store for nerds."
 *   Git (An application for handling "version control" of our software projects)
-*   The Ruby programming language, as well as a Ruby "Version Manager" to allow
-us to install other versions as needed
+*   The Ruby programming language, as well as a Ruby "Version Manager" to allow us to install other versions as needed
 
 ### Text Editor
 
@@ -237,49 +232,22 @@ To reload your shell, do the following:
 rbenv rehash
 ```
 
-### Folder Structure
+### Pry
 
-Now, let's create a folder structure to store all of your code. We can start by moving to our home folder, and then creating a Turing folder.
+Pry is a tool that you will use a lot as you try things out and work to debug your work during your time at Turing. There is a similar tool called IRB that is built in to Ruby, but Pry gives us some additional features that will be nice to have, so we're going to install it now.
 
-```
-$ cd ~
-$ mkdir turing
-```
+You can install Pry by entering the following command in your Terminal.
 
-__A few notes:__
-
-*   `cd` stands for "change directory", and moves us to a specific place on the filesystem, similar to using the GUI Finder to browse directories on the machine
-*   `~` is a shortcut for our "home directory". It will be in a place like `/Users/<your-user-name>`
-*   `mkdir` stands for "make directory", and it allows us to create new folders on the machine
-
-At this point, we want to enter the directory we have created, and then we will create ourselves a directory for the first module. We call this new directory 1module, so we can use tab complete more easily.
-
-```
-cd turing
-mkdir prework
-mkdir 1module
+```sh
+$ gem install pry
 ```
 
-Now that this is complete, you can now get to your first module folder from anywhere through the terminal by typing:
+Once you've done that, check to see if it successfully installed by typing `pry` in the terminal and hitting return. This should open an interactive session where you can enter Ruby commands.
 
+If you type in `1 + 1` it should return `2` as shown below. Then go ahead and type `exit` and you should be back to your normal Terminal prompt.
+
+```ruby
+1 + 1
+# 2
+exit
 ```
-cd ~/turing/1module
-```
-
-__Try It:__ Move to your home directory using `cd ~`. Then use `cd` to navigate back to your `1module` directory.
-
-Once we get exposed to more projects, homework, etc, our ultimate 1module folder setup will look like this:
-
-```
-1module/
-    - homework/
-    - classroom_exercises/
-    - morning_exercises/
-    - projects/
-        - project_name_1/
-        - project_name_2/
-        - project_name_3/
-        - etc.
-```
-
-For right now, it's fine to leave your `1module` and `prework` folders empty.
