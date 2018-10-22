@@ -522,7 +522,7 @@ The router is expecting to find an action in `ArticlesController` named `edit`, 
 
 ```ruby
 def edit
-
+  @Article = Article.find(params[:id])
 end
 ```
 When you run your test suite you'll see the `ArticlesController#edit is missing a template for this request format and variant.` error message. Let't go create that file.
